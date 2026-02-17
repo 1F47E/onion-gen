@@ -51,7 +51,9 @@ Drop the `hs_ed25519_*` files + `hostname` into your Tor hidden service director
 | Machine | Cores | Workers | Keys/sec |
 |---------|-------|---------|----------|
 | Apple M1 Pro | 10 | 9 | ~51K |
-| Hetzner AX41 (AMD) | 24 | 23 | ~365K |
+| Hetzner AX41 (AMD) | 24 | 23 | ~918K |
+
+Found `yapper` (6-char prefix, ~1B search space) in 14 minutes on 24-core Hetzner.
 
 ## Base32 note
 
